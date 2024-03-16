@@ -1,19 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltTester.AltTesterUnitySDK.Driver", "AltTester.AltTesterUnitySDK.Driver.csproj", "{3373a586-d5d1-f6dd-d7d5-bbbf0635dc67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltTester.AltTesterUnitySDK", "AltTester.AltTesterUnitySDK.csproj", "{1a498c91-ca1e-0691-221e-e6fbdb314087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltTester.AltTesterUnitySDK.Editor", "AltTester.AltTesterUnitySDK.Editor.csproj", "{340e68b7-ec04-8bf8-2a23-b3f041ff3590}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7758a28d-30b8-8d1b-c44f-09d07abcb9ef}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCharacterMovement.CharacterMovement", "EasyCharacterMovement.CharacterMovement.csproj", "{4e8f3416-12b7-43e1-872b-6da4de424fa2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{83e6f716-4d33-57e1-56c3-388c8073fb95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{4a3b0e8b-264f-e6ed-eae7-0eba04b721f7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3373a586-d5d1-f6dd-d7d5-bbbf0635dc67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3373a586-d5d1-f6dd-d7d5-bbbf0635dc67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1a498c91-ca1e-0691-221e-e6fbdb314087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1a498c91-ca1e-0691-221e-e6fbdb314087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340e68b7-ec04-8bf8-2a23-b3f041ff3590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340e68b7-ec04-8bf8-2a23-b3f041ff3590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7758a28d-30b8-8d1b-c44f-09d07abcb9ef}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7758a28d-30b8-8d1b-c44f-09d07abcb9ef}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4e8f3416-12b7-43e1-872b-6da4de424fa2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4e8f3416-12b7-43e1-872b-6da4de424fa2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83e6f716-4d33-57e1-56c3-388c8073fb95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83e6f716-4d33-57e1-56c3-388c8073fb95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4a3b0e8b-264f-e6ed-eae7-0eba04b721f7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4a3b0e8b-264f-e6ed-eae7-0eba04b721f7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
